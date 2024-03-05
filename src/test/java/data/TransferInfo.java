@@ -6,8 +6,8 @@ public class TransferInfo {
     private int amount;
 
     public TransferInfo(String from, String to, int amount) {
-        this.from = "5559 0000 0000" + from.substring(from.length() - 4);
-        this.to = "5559 0000 0000" + to.substring(to.length() - 4);
+        this.from = from;
+        this.to = to;
         this.amount = amount;
     }
 
